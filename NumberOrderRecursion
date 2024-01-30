@@ -1,0 +1,27 @@
+class RecOrder {
+    public static void main(String[] args) {
+       int n=10;
+        System.out.println(inc(n));
+        System.out.println(dec(n));
+    }
+    
+    static int dec(int n){
+        if(n==0)
+            return n;
+        else 
+            System.out.println(n);
+            return dec(n-1);
+            }
+    
+            static int inc(int n){
+                if(n==0)
+                    return n;
+                else 
+                System.out.println( inc(n-1));
+                    return n;
+                 
+                    
+                        
+                    
+                }
+}
